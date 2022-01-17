@@ -4,7 +4,7 @@ public class DAO {
   private String username;
   private String firstName;
   private String lastName;
-  private String id;
+  private String password;
 
   public String getUsername () {
     return this.username;
@@ -24,11 +24,11 @@ public class DAO {
   public void setLastName(String lastName){
     this.lastName = lastName;
   }
-  public String getId () {
-    return this.id;
+  public String getPassword () {
+    return this.password;
   }
-  public void setId(String id){
-    this.id = id;
+  public void setPassword(String password){
+    this.password = password;
   }
 
   public DAO(String username, String firstName, String lastName, String password){
