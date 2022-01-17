@@ -16,7 +16,7 @@ public class Run {
 
 		if (temp.equals("C")){
 
-			a.createUser("C:/Users/rudyd/github/Banking-Application/data.txt");
+			a.createUser("");
 
 			}
 
